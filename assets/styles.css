@@ -1,0 +1,34 @@
+/* Fondo con imagen para la página de login */
+.login-background {
+    background-image: url("/assets/fondo_login.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo general para fuente y cuerpo */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('/assets/Copa.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.sidebar-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Asegura que los logos de los equipos se vean bien en tabla */
+.dash-table-container img {
+    height: 30px;
+}
+/* Sombra en las tablas
+.dash-table-container {
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    overflow: hidden;
+}
